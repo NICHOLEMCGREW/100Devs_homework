@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    /* text-align: center; */
+    letter-spacing: .5px;
+    font-family: 'Roboto';
+}
+
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clear {
+    clear: both;
+}
+
+/***************************************
+/* NAVBAR 
+/***************************************/
+header{
+
+    background: rgb(123, 132, 163);
+}
+nav {
+    font-size: 15px;
+    display: inline-block;
+    padding-bottom: 10px;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgb(220, 209, 209);
+    margin: 20px;
+    padding: 12px 25px;
+    font-weight: 700;
+}
+nav a{
+    margin-right: 40px;
+}
+nav li{
+    list-style: none;
+    text-decoration: none;
+    float: left;
+}
+.left-nav{
+    padding: 5px;
+} 
+nav li a{
+    float: right;
+    position: fixed;
+    top: 0;
+    right: 0;
+    border: none;
+    background-color: white;
+    border-radius: 3px;
+    padding: 6px;
+    font-size: 13px;
+    /* color: rgb(76, 83, 107); */
+    
+}
+
+
+/***************************************
+/* TOP 
+/***************************************/
+
+.top{
+    background: rgb(123, 132, 163);
+    color: white;
+    height: 40%;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+h1 > p{
+    text-align: center;
+    justify-content: center;
+}
+
+/***************************************
+/* WHY 
+/***************************************/
+
+.why, .volunteer{
+    background: white;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 75px;
+    height: 20%;
+}
+h2{
+    font-size: 30px;
+    padding: 0;
+    margin: 0px;
+}
+
+/***************************************
+/* BOXES 
+/***************************************/
+
+.boxes{
+    /* height: 40%; */
+    background: rgb(233, 235, 241);
+    text-align: center;
+    justify-content: center;
+
+}
+.bottom-left, .bottom-right{
+    width: 50%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* margin: 0px 10px 10px 10px; */
+}
+.bottom-left{
+    margin-left: 0px;
+}
+div{
+    background: rgb(123, 132, 163);
+    height: 100px;
+    width: 150px;
+    margin: ;
+}
+
+/***************************************
+/* VOLUNTEER 
+/***************************************/
+
+.volunteer{
+    
+}
+.volunteer > p{
+    margin-bottom: 40px;
+}
