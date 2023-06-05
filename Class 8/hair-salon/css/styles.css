@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.clear {
+    clear: both;
+}
+
+
+/******************************
+TOP
+/******************************/
+
+
+
+/******************************
+MIDDLE
+/******************************/
+
+
+/******************************
+BOTTOM 
+/******************************/
+
+
+/******************************
+@MEDIA 
+/******************************/
+
+  @media screen and (max-width: 500px) {
+    .column {
+      width: 100%;
+    }
+  }
+
+  /* add at least one media query to layouts 4, 5, 6, 7 and make look good on cell */
+
+  /* placeholder websites-- placekitten */

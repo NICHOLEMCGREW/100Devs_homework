@@ -183,6 +183,7 @@ footer{
     height: 200px;
     color: white;
     display: block;
+    text-decoration: none;
 }
 footer.left{
     float: left;
@@ -192,10 +193,21 @@ footer.right{
     float: right;
 }
 .bottom-bottom{
-    border-top: 1px solid white;
-    height: 5px;
+    /* border-top: 1px solid white; */
+    /* height: 5px; */
     float: left;
 }
 #bottom-bottom{
+    float: right;
+}
+footer li{
+    float: left;
+    width: 100px;
+}
+footer h4{
+    float: right;
+    width: 185px;
+}
+address{
     float: right;
 }

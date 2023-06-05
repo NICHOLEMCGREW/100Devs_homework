@@ -163,3 +163,10 @@ footer img{
     width: 100%;
     height: 40px;
 }
+
+/******************************
+@MEDIA
+/******************************/
+
+/* set media query to 100% to stack */
+/* display block the li that has hamburger , hide nav bar and show hamburger */
