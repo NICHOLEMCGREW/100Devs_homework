@@ -1,13 +1,10 @@
 /* Box Model Hack */
-* {
-  box-sizing: border-box;
-}
 html {
   box-sizing: border-box;
   font-size: 16px;
 }
 
-*, *:before, *:after {
+* {
   box-sizing: inherit;
 }
 body {
@@ -36,40 +33,105 @@ img, video {
 	clear: both;
 }
 
+header {
+height: 10%;
+width: 100%;
+border: 1px solid black;
+
+}
+img{
+  max-width: 100%;
+}
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
-body {
-
-}
-
-
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
-
-}
-
-footer {
-
-}
 
 .hero{
-  height: 50%;
+  height: 45%;
   width: 100%;
   border: 1px solid black;
 }
 
-.other-content {
-  height: 50%;
-  width: 100%;
-  border: 1px solid black;
-}
 .hero-content {
   height: 100%;
   width: 50%;
+  border: 1px solid black;
+  float: left;
+  
+}
+
+.gallery{
+  height: 50%;
+  width: 50%;
+  border: 1px solid black;
+  float: left;
+}
+.other-content {
+  height: 45%;
+  width: 100%;
+  border: 1px solid black;
+  padding-left: 10vh;
+  padding-right: 10vw;
+}
+.left{
+  height: 100%;
+  width: 33.33%;
+  border: 1px solid black;
+  float: left;
+}
+.middle{
+  height: 100%;
+  width: 33.33%;
+  border: 1px solid black;
+  float: left;
+}
+.right{
+  height: 100%;
+  width: 33.33%;
+  border: 1px solid black;
+  float: right;
+}
+
+.gallery-small{
+  height: 31.33%;
+  width: 96%;
+  border: 1px solid black;
+  float: right;
+  margin: 2%;
+}
+.gallery-large{
+  height: 62.66%;
+  width: 96%;
+  border: 1px solid black;
+  float: right;
+  overflow: hidden;
+  margin: 2%;
+}
+.third-bucket{
+  height: 80vh;
+  width: 100%;
+  border: 1px solid black;
+
+}
+.header-l{
+  height: 100%;
+  width: 20%;
+  border: 1px solid black;
+  float: left;
+}
+.header-m{
+  height: 100%;
+  width: 60%;
+  border: 1px solid black;
+  float: left;
+}
+.header-r{
+  height: 100%;
+  width: 20%;
   border: 1px solid black;
   float: left;
 }
