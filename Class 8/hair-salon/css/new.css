@@ -43,12 +43,12 @@ html {
 header {
     height: 10%;
     width: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .header-l{
     height: 100%;
     width: 20%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     float: left;
     font-family: "Dancing Script", "Cookie", "Mr Dafoe", sans-serif;
     font-size: 60px;
@@ -57,7 +57,7 @@ header {
 .header-m{
     height: 100%;
     width: 60%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     float: left;
     text-align: center;
     /* align-self: center; */
@@ -80,7 +80,7 @@ header {
       .header-r{
         height: 100%;
         width: 20%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         float: left;
         font-weight: 700;
         text-align: center;
@@ -92,17 +92,15 @@ header {
 /*******************************************/
 
       .hero{
-        height: 55%;
+        height: 50%;
         width: 100%;
-        border: 1px solid black;
-        background-image: url(../imgs/background.jpg);
+        /* border: 1px solid black; */
+        background-image: url(../imgs/main.jpeg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: 100%;
-        background-color: #4F4F4F;
-        border-bottom-right-radius:  70px 20%;
+        background-color: #806464;
         /* transform: skew(0deg, 3deg);
-        position: relative; top: 0px; left: 0px; bottom: -20px;
         transform-origin: right;
         z-index: -1;
         overflow: hidden; */
@@ -111,7 +109,7 @@ header {
       .hero-content {
         height: 100%;
         width: 50%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         float: left;
         text-align: center;
         padding-top: 1%;
@@ -122,7 +120,6 @@ header {
         font-weight: 200;
         font-size: 65px;
         color: white;
-        margin-bottom: 0%;
       }
       .hero-content p{
         font-size: 15px;
@@ -132,7 +129,7 @@ header {
         font-size: 15px;
         color: white;
         font-weight: 200;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         background-color: black;
         text-align: justify;
         align-self:baseline;
@@ -144,18 +141,15 @@ header {
         color: white;
         transform: rotate(-90deg);
         float: left;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         margin: -75px;
       }
       .arrows{
           /* position:fixed; */
-          /* bottom:-1; */
           /* left:0; */
-          /* margin-bottom: 1px; */
           /* margin-left : 1px; */
           text-align: center;
           position: relative;
-          bottom: -150px;
           left: -400px;
           display: inline;
           width: 2px;
@@ -170,7 +164,7 @@ header {
       .services{
         height: 25%;
         width: 100%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         padding-left: 10vh;
         padding-right: 10vw;
         text-align: center;
@@ -178,38 +172,40 @@ header {
       .services-l{
         height: 100%;
         width: 33.33%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         float: left;
         padding: 2% 6%;
       }
       .services-m{
         height: 100%;
         width: 33.33%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         float: left;
         padding: 2% 6%;
       }
       .services-r{
         height: 100%;
         width: 33.33%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         float: left;
         padding: 2% 6%;
       }
 
       .momentum{
-        height: 25%;
+        height: 30%;
         width: 100%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         text-align: left;
         padding-left: 10%;
+        background: rgb(233, 231, 231);
       }
       .momentum-l{
         height: 100%;
         width: 50%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         float: left;
         padding-right: 25%;
+        padding-top: 1%;
       }
       .momentum-l h2{
         font-size: 28px;
@@ -217,14 +213,13 @@ header {
         padding-top: 0%;
         margin-top: 0%;
         padding-right: 20%;
-        padding-bottom: 0%;
         /* align-items: center; */
       }
       .momentum .read-more{
           font-size: 15px;
           color: white;
           font-weight: 200;
-          border: 1px solid black;
+          /* border: 1px solid black; */
           background-color: black;
           /* text-align: justify; */
           /* align-self:baseline; */
@@ -234,82 +229,173 @@ header {
         .momentum-r{
           height: 100%;
           width: 50%;
-          border: 1px solid black;
+          /* border: 1px solid black; */
           float: left;
         }
         .momentum-r img{
-          size: contain;
+            height: 100%;
+            width: 50%;
+            /* border: 1px solid black; */
+            padding: 1%;
+            /* float: right; */
         }
         
       .stylists{
-        height: 25%;
+        height: 45%;
         width: 100%;
-        border: 1px solid black;
-      }
-      .stylists-l{
+        /* border: 1px solid black; */
+        padding-left: 10vh;
+        padding-right: 10vw;
+        padding-top: 1%;
+    }
+    .stylists-l{
         height: 100%;
         width: 33.33%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         float: left;
+        padding-left: 10vh;
+        padding-right: 10vw;
+      }
+      .stylists-l img{
+        height: 41%;
+        /* border: 1px solid black; */
+        float: right;
+        overflow: hidden;
+        position: absolute;
       }
       .stylists-m{
         height: 100%;
         width: 33.33%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         float: left;
+        padding-left: 10vh;
+        padding-right: 10vw;
+      }
+      .stylists-m img{
+        height: 41%;
+        /* border: 1px solid black; */
+        float: left;
+        overflow: hidden;
+        position: absolute;
       }
       .stylists-r{
         height: 100%;
         width: 33.33%;
-        border: 1px solid black;
-        float: left;
+        /* border: 1px solid black; */
+        float: right;
+        padding-left: 10vh;
+        padding-right: 10vw;
       }
+      .stylists-r img{
+        height: 41%;
+        /* border: 1px solid black; */
+        float: left;
+        overflow: hidden;
+        position: absolute;
+      }
+      .stylists-info{
+        /* border: 1px solid black; */
+        color: white;
+        background: black;
+        text-align: center;
+        font-size: 13px;
+        height: 15%;
+        width: 90%;
+        position: relative;
+        left: 20px;
+        bottom: -400px;
+    }
+    .stylists-info > h3{
+        padding-top: 10px;
+        margin: 0%;
+    }
 
       .coupon{
-        height: 25%;
+        height: 30%;
         width: 100%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
+        color: white;
+        /* padding-left: 20vh;
+        padding-right: 16vw;
+        padding-top: .5%;
+        padding-bottom: .5%; */
+        padding: 1% 20vw .5% 20vh
+        /* display: inline-block; */
+    }
+    .coupon-content{
+        background-image: url(../imgs/background.jpg);
+        background-repeat: no-repeat;
+        /* background-size: 30%; */
+        background-position: 100%;
+        background-color: #4F4F4F;
+        padding-left: 30%;
+        padding-top: 2%;
+        height: 95%;
+      }
+      .coupon-bold{
+        font-weight: bold;
+        font-size: 35px;
+        display: inline;
+      }
+      .coupon-content p{
+        display: inline;
+        font-size: 20px;
+        line-height: 2.5;
+      }
+      .book {
+        font-size: 15px;
+        color: white;
+        font-weight: 200;
+        /* border: 1px solid black; */
+        background-color: black;
       }
 
-
+      .lookbook{
+        text-align: center;
+      }
       .gallery-content{
         height: 50%;
         width: 100%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         float: left;
+        height: 45%;
+        /* border: 1px solid black; */
+        padding: 1% 20vw 0% 20vh
       }
 
       .gallery-left{
         height: 100%;
         width: 33.33%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         float: left;
       }
       .gallery-middle{
         height: 100%;
         width: 33.33%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         float: left;
       }
       .gallery-right{
         height: 100%;
         width: 33.33%;
-        border: 1px solid black;
+        /* border: 1px solid black; */
         float: right;
       }
       
       .gallery-small{
-        height: 31.33%;
-        width: 96%;
-        border: 1px solid black;
-        float: right;
-        margin: 2%;
+        /* height: 10%; */
+        /* width: 96%; */
+        /* border: 1px solid black; */
+        /* float: right; */
+        /* margin: 2%; */
       }
       .gallery-large{
-        height: 62.66%;
-        width: 96%;
-        border: 1px solid black;
-        float: right;
+        /* height: 62.66%; */
+        /* width: 96%; */
+        /* border: 1px solid black; */
+        /* float: right; */
         overflow: hidden;
-        margin: 2%;
+        /* margin: 2%; */
       }
+
+    
